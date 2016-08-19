@@ -46,5 +46,4 @@ public class readFromFile extends Thread
      {
     	 return fileWords;
      }
-      
 }
