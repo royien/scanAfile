@@ -25,7 +25,7 @@ public class readFromFile extends Thread
 		String temporaryStoreForWord;
 		while(scanFile.hasNext()){
 			try{          
-				temporaryStoreForWord = scanFile.nextLine();
+				temporaryStoreForWord = scanFile.next();
 				storeMemory(temporaryStoreForWord);
 				Thread.sleep(100);
 			}catch(Exception e){
